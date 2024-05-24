@@ -1,12 +1,12 @@
-# React, JSON Server, Zustand and Ngrok POC
+# React, JSON Server, Zustand, NodeJS & Render
 
 ## How It Works
 
 ### Overview
-Questa POC dimostra come utilizzare **React**, **JSON Server**, e **Ngrok** per creare e testare un'applicazione con funzionalità CRUD. 
+Questa POC dimostra come utilizzare **React**, **JSON Server**, **Zustand**, **NodeJS** e **Render** per creare e testare un'applicazione con funzionalità CRUD, con deploy su **Render**.
 
-### Why Use Ngrok and JSON Server
-- **Ngrok** permette di esporre il tuo server locale a un URL pubblico, utile per testare e condividere l'applicazione in fase di sviluppo con altri collaboratori o client senza dover fare deploy su un server remoto.
+### Why Use Render and JSON Server
+- Utilizzo **Render** per esporre il tuo server locale a un URL pubblico, utile per testare e condividere l'applicazione in fase di sviluppo con altri collaboratori o client senza dover fare deploy su un server remoto.
 - **JSON Server** consente di simulare un backend con API RESTful in pochi minuti, ideale per sviluppo frontend e test, senza dover configurare un backend completo.
 
 
