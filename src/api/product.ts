@@ -1,8 +1,9 @@
 import axios from 'axios';
 import { Product } from '../context/productStore';
 
-const API_URL = 'https://4c88-94-102-128-55.ngrok-free.app/products'; // <- for ngrok
-// const API_URL = 'http://localhost:5575/products' <- for local development
+const API_URL = 'https://how-to-mock-jsonserver.onrender.com/products' // <- from render
+// const API_URL = 'https://4c88-94-102-128-55.ngrok-free.app/products'; // <- for ngrok
+// const API_URL = 'http://localhost:5575/products' // <- for local development
 
 const productApi = axios.create({
     baseURL: API_URL,

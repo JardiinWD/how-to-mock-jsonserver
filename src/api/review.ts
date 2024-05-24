@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { Review } from '../context/reviewStore';
 
-const API_URL = 'https://4c88-94-102-128-55.ngrok-free.app/reviews'; // <- for ngrok
+const API_URL = 'https://how-to-mock-jsonserver.onrender.com/reviews' // <- from render
+// const API_URL = 'https://4c88-94-102-128-55.ngrok-free.app/reviews'; // <- for ngrok
 // const API_URL = 'http://localhost:5575/reviews' // <- for local development
 
 const reviewsApi = axios.create({
